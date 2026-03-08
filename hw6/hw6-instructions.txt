@@ -1,0 +1,45 @@
+Homework 6 Instructions
+
+1. Complete the worksheet barycentric-coordinates.pdf in part1.
+2. Complete the implementation of your triangle mesh ray tracing in part2.
+3. Deliverables:
+3a. On *gradescope*, submit <username>barycentric-coordinates.pdf
+3b. On *canvas*, submit <username>-hw-6.zip which should unzip into these contents:
+hw-6/box.cpp
+hw-6/box.h
+hw-6/camera.cpp
+hw-6/camera.h
+hw-6/color.h
+hw-6/dump_png.cpp
+hw-6/dump_png.h
+hw-6/fixed_color.h
+hw-6/flat_shader.cpp
+hw-6/flat_shader.h
+hw-6/hit.h
+hw-6/light.h
+hw-6/main.cpp
+hw-6/mesh.cpp
+hw-6/mesh.h
+hw-6/misc.h
+hw-6/object.h
+hw-6/parse.cpp
+hw-6/parse.h
+hw-6/phong_shader.cpp
+hw-6/phong_shader.h
+hw-6/plane.cpp
+hw-6/plane.h
+hw-6/point_light.cpp
+hw-6/point_light.h
+hw-6/ray.h
+hw-6/reflective_shader.cpp
+hw-6/reflective_shader.h
+hw-6/registration.cpp
+hw-6/render_world.cpp
+hw-6/render_world.h
+hw-6/shader.h
+hw-6/sphere.cpp
+hw-6/sphere.h
+hw-6/transparent_shader.cpp
+hw-6/transparent_shader.h
+hw-6/vec.h
+

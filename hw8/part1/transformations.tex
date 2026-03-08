@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{.5em}
+
+\usepackage{framed}
+\newcounter{problem}
+\newcounter{problempart}[problem]
+\newcounter{solutionpart}[problem]
+\newenvironment{problem}{\stepcounter{problem}\noindent{\bf\arabic{problem}.}}{\setcounter{problempart}{0}\setcounter{solutionpart}{0}}
+\newenvironment{solution}{\par\textcolor{blue}\bgroup}{\egroup\par}
+\newcommand{\qpart}{\stepcounter{problempart}${}$\\\noindent{(\alph{problempart})} }
+\newcommand{\spart}{\stepcounter{solutionpart}${}$\\\noindent{(\alph{solutionpart})} }
+\newcommand{\TODO}{\textcolor{red}{$\blacksquare$}}
+\newcommand{\SOL}[1]{\textcolor{blue}{#1}}
+
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{amsmath,mathabx,MnSymbol}
+\usepackage{color,tikz}
+\usepackage{footnote,enumitem}
+\usepackage{longtable}
+\newcommand{\mx}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\definecolor{dkgreen}{rgb}{0,.5,0}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\newcommand{\uu}{\mathbf{u}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\cc}{\mathbf{c}}
+\newcommand{\ww}{\mathbf{w}}
+\newcommand{\xx}{\mathbf{x}}
+\newcommand{\yy}{\mathbf{y}}
+\newcommand{\zz}{\mathbf{z}}
+\newcommand{\ee}{\mathbf{e}}
+\newcommand{\pp}{\mathbf{p}}
+\newcommand{\qq}{\mathbf{q}}
+\renewcommand{\AA}{\mathbf{A}}
+\newcommand{\BB}{\mathbf{B}}
+\newcommand{\II}{\mathbf{I}}
+\newcommand{\CC}{\mathbf{C}}
+\newcommand{\RR}{\mathbf{R}}
+\newcommand{\DD}{\mathbf{D}}
+\newcommand{\nn}{\mathbf{n}}
+\newcommand{\gp}[1]{\left(#1\right)}
+
+\newcommand{\TODOL}[1]{\textcolor{red}{\underline{\hspace{#1 cm}}}}
+
+\usepackage{listings}
+
+\lstset{
+  language=C++,
+  showstringspaces=false,
+  identifierstyle=\color{magenta},
+  basicstyle=\color{magenta},
+  keywordstyle=\color{blue},
+  identifierstyle=\color{black},
+  commentstyle=\color{green},
+  stringstyle=\color{red}
+}
+
+\begin{document}
+
+\title{CS130 - Transformations}
+\date{}
+\author{Name: \TODOL7\qquad\qquad SID: \TODOL4}
+\maketitle
+\begin{center}
+\end{center}
+
+Identify what each of the following does to a point in homogeneous coordinates.
+You may choose from:
+\begin{itemize}
+\item uniform scale by $a$ (identify $a$)
+\item non-uniform scale by $a,b,c$ (identify $a,b,c$)
+\item translation by $a,b,c$ (identify $a,b,c$)
+\item rotation by angle $\theta$ about axis $a,b,c$ (identify $\theta,a,b,c$)
+\item reflections (identify the direction about the reflection is occurring)
+\item a sequence of the above (specify the operations in the order they are applied)
+\end{itemize}
+If the transformation cannot be obtained by applying a sequence of the above, explain why.
+
+\begin{problem}
+  $\mx{ 4 & 0 & 0 & 0 \\ 0 & 3 & 0 & 0 \\ 0 & 0 & 2 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 0 & 1 & 0 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 0 & 1 & 0 & 0 \\ -1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 2}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 1 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 2}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\mx{ 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 0}$
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  $\uu = \mx{ x \\ y }, \RR = \mx{\cos \theta & -\sin \theta \\ \sin \theta & \cos \theta}$.  Let $\vv = \RR \uu$ be the rotated version of $\uu$.  Use the dot product $\vv \cdot \uu$ to show that the angle between $\vv$ and $\uu$ is $\theta$.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  Show that $\RR^T \RR = \II$ for the $2 \times 2$ matrix in the previous problem.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  Let $\RR$ be a $3 \times 3$ matrix with columns $\uu$, $\vv$, $\ww$.  Show that $\RR^T \RR = \II$ is equivalent to $\uu$, $\vv$, $\ww$ being unit vectors and mutually orthogonal.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  Let $\RR$ be a matrix with $\RR^T \RR = \II$ and let $\yy = \RR \xx$.  Show that $\xx$ and $\yy$ must have the same length.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  Let $\RR$ be a matrix with $\RR^T \RR = \II$ and let $\yy = \RR \xx$ and $\vv = \RR \uu$.  Show that $\uu \cdot \xx = \yy \cdot \vv$ so that the dot product between vectors is preserved under rotation.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\begin{problem}
+  Given the results of the previous two problems, explain why the angle between two vectors must also be preserved under rotation.
+\end{problem}
+
+\begin{solution}
+  \textbf{\textcolor{red}{\TODO}}
+\end{solution}
+
+\end{document}

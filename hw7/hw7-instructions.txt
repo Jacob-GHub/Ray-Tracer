@@ -1,0 +1,47 @@
+Homework 7 Instructions
+
+1. Complete the worksheet parametric.pdf in part1.
+2. Complete the implementation of texture mapping for your ray tracer in part2.
+3. Deliverables:
+3a. On *gradescope*, submit <username>parametric.pdf
+3b. On *canvas*, submit <username>-hw-7.zip which should unzip into these contents:
+hw-7/box.cpp
+hw-7/box.h
+hw-7/camera.cpp
+hw-7/camera.h
+hw-7/color.h
+hw-7/dump_png.cpp
+hw-7/dump_png.h
+hw-7/fixed_color.h
+hw-7/flat_shader.cpp
+hw-7/flat_shader.h
+hw-7/hit.h
+hw-7/light.h
+hw-7/main.cpp
+hw-7/mesh.cpp
+hw-7/mesh.h
+hw-7/misc.h
+hw-7/object.h
+hw-7/parse.cpp
+hw-7/parse.h
+hw-7/phong_shader.cpp
+hw-7/phong_shader.h
+hw-7/plane.cpp
+hw-7/plane.h
+hw-7/point_light.cpp
+hw-7/point_light.h
+hw-7/ray.h
+hw-7/reflective_shader.cpp
+hw-7/reflective_shader.h
+hw-7/registration.cpp
+hw-7/render_world.cpp
+hw-7/render_world.h
+hw-7/shader.h
+hw-7/sphere.cpp
+hw-7/sphere.h
+hw-7/texture.cpp
+hw-7/texture.h
+hw-7/transparent_shader.cpp
+hw-7/transparent_shader.h
+hw-7/vec.h
+

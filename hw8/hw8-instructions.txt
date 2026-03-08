@@ -1,0 +1,8 @@
+Homework 8 Instructions
+
+1. Complete the worksheet transformations.pdf in part1.
+2. Complete the rasterization project in part2.
+3. Deliverables:
+3a. On *gradescope*, submit <username>transformations.pdf
+3b. On *canvas*, submit <username>-hw-8.zip which should unzip into these contents:
+hw-8/raster.cpp

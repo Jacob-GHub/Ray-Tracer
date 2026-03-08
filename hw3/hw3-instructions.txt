@@ -1,0 +1,34 @@
+Homework 3 Instructions
+
+1. Complete the Debugging Exercises in part1/debugging.pdf
+2. Implement pixel trace code as described in part2/pixel-trace.pdf
+3. Deliverables:
+3a. On *gradescope*, submit <username>-debugging.pdf
+3b. On *canvas*, submit <username>-hw-3.zip which should unzip into these contents:
+hw-3/box.cpp
+hw-3/box.h
+hw-3/camera.cpp
+hw-3/camera.h
+hw-3/color.h
+hw-3/dump_png.cpp
+hw-3/dump_png.h
+hw-3/fixed_color.h
+hw-3/flat_shader.cpp
+hw-3/flat_shader.h
+hw-3/hit.h
+hw-3/light.h
+hw-3/main.cpp
+hw-3/misc.h
+hw-3/object.h
+hw-3/parse.cpp
+hw-3/parse.h
+hw-3/plane.cpp
+hw-3/plane.h
+hw-3/ray.h
+hw-3/registration.cpp
+hw-3/render_world.cpp
+hw-3/render_world.h
+hw-3/shader.h
+hw-3/sphere.cpp
+hw-3/sphere.h
+hw-3/vec.h

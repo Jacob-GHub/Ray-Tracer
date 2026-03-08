@@ -1,0 +1,43 @@
+Homework 5 Instructions
+
+1. Complete the implementation of your reflective and transparents shaders in part1.
+2. Complete the worksheet reflect.pdf in part2.
+3. Deliverables:
+3a. On *gradescope*, submit <username>-reflect.pdf
+3b. On *canvas*, submit <username>-hw-5.zip which should unzip into these contents:
+hw-5/box.cpp
+hw-5/box.h
+hw-5/camera.cpp
+hw-5/camera.h
+hw-5/color.h
+hw-5/dump_png.cpp
+hw-5/dump_png.h
+hw-5/fixed_color.h
+hw-5/flat_shader.cpp
+hw-5/flat_shader.h
+hw-5/hit.h
+hw-5/light.h
+hw-5/main.cpp
+hw-5/misc.h
+hw-5/object.h
+hw-5/parse.cpp
+hw-5/parse.h
+hw-5/phong_shader.cpp
+hw-5/phong_shader.h
+hw-5/plane.cpp
+hw-5/plane.h
+hw-5/point_light.cpp
+hw-5/point_light.h
+hw-5/ray.h
+hw-5/reflective_shader.cpp
+hw-5/reflective_shader.h
+hw-5/registration.cpp
+hw-5/render_world.cpp
+hw-5/render_world.h
+hw-5/shader.h
+hw-5/sphere.cpp
+hw-5/sphere.h
+hw-5/transparent_shader.cpp
+hw-5/transparent_shader.h
+hw-5/vec.h
+

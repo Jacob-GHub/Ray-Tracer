@@ -1,0 +1,38 @@
+Homework 2 Instructions
+
+1. Complete the worksheet part1/colors.pdf
+
+2. Implement the code from the hw-1/part2 skeleton code, such that your code passes all of the tests in
+       part2/tests-hw2/
+You can use grading_script.py to check if you pass.
+
+3. Submission instructions: You will submit this assignment in TWO parts:
+3a. On *gradescope*, submit <username>-colors.pdf
+3b. On *canvas*, submit <username>-hw-2.zip which should unzip into these contents:
+hw-2/box.cpp
+hw-2/box.h
+hw-2/camera.cpp
+hw-2/camera.h
+hw-2/color.h
+hw-2/dump_png.cpp
+hw-2/dump_png.h
+hw-2/fixed_color.h
+hw-2/flat_shader.cpp
+hw-2/flat_shader.h
+hw-2/hit.h
+hw-2/light.h
+hw-2/main.cpp
+hw-2/misc.h
+hw-2/object.h
+hw-2/parse.cpp
+hw-2/parse.h
+hw-2/plane.cpp
+hw-2/plane.h
+hw-2/ray.h
+hw-2/registration.cpp
+hw-2/render_world.cpp
+hw-2/render_world.h
+hw-2/shader.h
+hw-2/sphere.cpp
+hw-2/sphere.h
+hw-2/vec.h

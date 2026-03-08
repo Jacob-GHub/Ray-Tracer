@@ -1,0 +1,21 @@
+Homework 1 Instructions
+
+1. Complete the worksheet part1/math-review.pdf
+
+2. Follow the instructions in part2/README.txt, and complete part2/code-intro.pdf
+
+3. Submission instructions: Submit hw1 in two parts.
+3a. On *gradescope*, submit  <username>-hw-1.pdf, 
+   which concatenates into a single file your solutions to both files:
+
+   math-review.pdf
+   code-intro.pdf
+
+You may hand-write and scan your solutions into a pdf or edit and
+compile the included *.tex files.  Submitted files for this assignment
+should be in pdf format.
+
+3b. On *canvas*, submit a file <username>-hw-1.zip.  This file should
+contain your code as instructed in part2/code-intro.pdf Note that hw1
+does not require you to modify any code files yet.  The purpose of
+this submission is to familiarize you with the submission process.

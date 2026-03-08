@@ -1,0 +1,39 @@
+Homework 4 Instructions
+
+1. Complete the implementation of your phong shader and shadows in part1.
+2. Complete the worksheet lights.pdf in part2.
+3. Deliverables:
+3a. On *gradescope*, submit <username>-lights.pdf
+3b. On *canvas*, submit <username>-hw-4.zip which should unzip into these contents:
+hw-4/box.cpp
+hw-4/box.h
+hw-4/camera.cpp
+hw-4/camera.h
+hw-4/color.h
+hw-4/dump_png.cpp
+hw-4/dump_png.h
+hw-4/fixed_color.h
+hw-4/flat_shader.cpp
+hw-4/flat_shader.h
+hw-4/hit.h
+hw-4/light.h
+hw-4/main.cpp
+hw-4/misc.h
+hw-4/object.h
+hw-4/parse.cpp
+hw-4/parse.h
+hw-4/phong_shader.cpp
+hw-4/phong_shader.h
+hw-4/plane.cpp
+hw-4/plane.h
+hw-4/point_light.cpp
+hw-4/point_light.h
+hw-4/ray.h
+hw-4/registration.cpp
+hw-4/render_world.cpp
+hw-4/render_world.h
+hw-4/shader.h
+hw-4/sphere.cpp
+hw-4/sphere.h
+hw-4/vec.h
+
