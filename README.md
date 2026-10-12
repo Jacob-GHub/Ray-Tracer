@@ -117,4 +117,4 @@ Ray-Tracer/
 
 ## License
 
-[MIT — add a LICENSE file so it shows in the repo's About section.]
+[MIT]
